@@ -18,7 +18,7 @@ int main() {
         printf("Searched file not found\n");
     }
     else {
-        printf("The file you are looking for is at position %d\n", pw - string_2 + 1);
+        printf("The file you are looking for is at position %d\n", (pw - string_2) + 1);
     }
     printf("#Task 11#\n");
 
